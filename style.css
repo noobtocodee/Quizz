@@ -1,0 +1,131 @@
+* { /* universal selector */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: 'Lato', sans-serif;
+ }
+
+ .wrapper{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     height: 100vh;
+     background-color: rgb(209, 42, 20);
+ }
+
+ .wlcmTxt{
+     width: 15rem;
+     }
+
+.welcome-form input,
+.welcome-form button {
+  display: block;
+  width: 100%;
+  }
+
+.welcome-form input{
+    padding: 0.5rem;
+    margin-bottom: 0.75rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.welcome-form button {
+    padding: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    border-radius: 1rem;
+    transition: 0.3s all;
+}
+
+.welcome-form button:hover{
+    cursor: pointer;
+    transform:translateY(-4px);
+}
+
+.welcome-form input:focus,
+.welcome-form button:focus {
+  outline: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color:rgb(209, 42, 20);
+    background-repeat: no-repeat;
+    background-size: 100%   ;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 20px;
+    color: white;
+}
+
+textarea{
+    padding: 0;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+    bottom: 0;
+    font-size: 15px;
+    margin: -2.5px;
+    width: 152px;
+    height: 21px;
+    
+}
+
+button{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 110px;
+    margin-left: 5px;
+    border-radius: 0.75rem;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+
+} */
