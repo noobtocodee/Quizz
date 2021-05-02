@@ -28,6 +28,7 @@
      height: 100vh;
      /* background-color: #e62429; */
      background-image: url("images/Marvel1.jpg");
+     background-repeat: no-repeat;
      
  }
 
@@ -38,6 +39,7 @@
     width: 100vw;
     height: 100vh;
      background-image: url("images/groot.jpg");
+     background-repeat: no-repeat;
           
  }
 
@@ -48,6 +50,7 @@
     width: 100vw;
     height: 100vh;
      background-image: url("images/groot.jpg");
+     background-repeat: no-repeat;
  }
 
  .wlcmTxt{
